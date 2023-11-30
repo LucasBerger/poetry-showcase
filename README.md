@@ -19,7 +19,7 @@ To create a new folder which has the most minimal structure for a poetry project
 poetry new <python-module-name>
 ```
 
-This will create a structure like in the `./module-a` folder. You can play around with some options that you can find with `poetry new --help` and, for example, change the name of the resulting module, resulting in the `custom-name` folder which was created with this:
+This will create a structure like in the `./my-normal-package` folder. You can play around with some options that you can find with `poetry new --help` and, for example, change the name of the resulting module, resulting in the `custom-dir-name` folder which was created with this:
 
 ```shell
 poetry new custom-name --name real-module

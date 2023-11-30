@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "consumer"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Berger <lucask.berger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+multi-package = {path = "../multi-package"}
+my-normal-package = {path = "../my-normal-package"}
+my-real-package = {path = "../custom-dir-name"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
